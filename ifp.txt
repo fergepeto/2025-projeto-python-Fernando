@@ -1,0 +1,35 @@
+o1. Entrada:
+Arquivo: QuizAnimais.py
+Linha 70: escolha = input('-> ')
+Explicação: A varialel resposta_usuario recebe a entrada atraves do (input) para ser escrito a escolha do jogador se ele quer ou não jogar
+
+02. Saída:
+Arquivo: QuizAnimais.py
+Linha 34: print("vai embora então!")
+Explicação: Mostra a msg se o 'input' do jogador for a escolha '2' e se for a escolha '1' o quiz começa
+
+03. Variáveis:
+Arquivo: QuizAnimais.py
+Linha 11: escolha = ''
+Explicação: Declara a variável escolha usado apenas para ter a escolha inicial do jogador 
+
+04. Estrutura de Decisão:
+Arquivo: QuizAnimais.py
+Linha 33 até 36: if escolha == '2'
+Explicação: util quando a escolha '2' é usada para decidir não começar o jogo e começar a despedida e a parada dos códigos
+
+05. Sub-Rotinas:
+Arquivo: QuizAnimais.py
+Linha 39: todas_perguntas
+Explicação: função de armazenar as perguntas do quiz
+
+06. Operadores:
+Arquivo: QuizAnimais.py
+Linha 75: resposta_jogador == p["resposta"]
+            print("correto!")
+Explicação: usado para que se a resposta_jogador for igual a "resposta" mostre "correto!"
+
+07. Repetição:
+Arquivo: QuizAnimais.py
+linha 71: while resposta_jogador.isdigit():
+Explicação: usa da repetição do 'while' para fazer com que, sempre que o jogador escrever um número em quanto responde as perguntas, diga que não pode digitar números
